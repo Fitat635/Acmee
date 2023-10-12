@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #740404;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+}
+.photo{
+    background-color:  #740404;
+    display: flex;
+    left: 80px;
+    cursor: pointer;
+
+}
+.division{
+    height: 60px;
+    background-color:  #6f0a0a;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+ul{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    color: white;
+    cursor: pointer;
+    
+}
+.photo2{
+    width: 50px;
+    height: 30px;
+    background-color: black;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+
+}
+.sebet{
+    height: 100%;
+    width: 100%;
+}
+li:hover {
+    background-color: rgb(50, 1, 1);
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;   
+
+}
+
+#alpnist{
+    background-image: url('https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83f98bae1ad80129fcd7e5_wu-jianxiong-UniC8xhlzaE-unsplash.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+.text{
+    background-color: transparent;
+    width: 300px;
+    height: 400px;
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    left: 20px;
+    top: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.bttn{
+    background-color: transparent;
+    width: 120px;
+    height: 25px;
+    border-radius: 5px;
+    border-color: white;
+    color: rgb(175, 236, 239)55, 255, 255);
+}
+.bttn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(156, 198, 228);
+}
+.divisiontxt{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-color: white;
+}
+.txt2{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+  
+}
+.covid{
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.card{
+    width: 100%;
+    height: 550px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.card1{
+    width: 30%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+}
+.card2{
+    width: 30%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    font-size: 20px; 
+}
+.card3{
+    width: 30%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    font-size: 20px;
+}
+#division3{
+
+    width: 100%;
+    height: 550px;
+    background-image: url('https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83fb3a6948e1f05b20527f_nathan-dumlao-pLoMDKtl-JY-unsplash.jpg');
+    background-size: cover;
+    position: relative;
+}
+.txt3{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 20px;
+    position: absolute;
+    top: 100px;
+    right: 15px;
+    color: rgb(238, 241, 249);
+}
+.bttn2{
+    background-color: white;
+    width: 170px;
+    height: 25px;
+    font-weight: 300;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    color:black;
+}
+.bttn2:hover{
+    background-color: rgb(175, 196, 191);
+    color: white;
+}
+.dvsn4{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.dvsn4 p{
+    font-size: 20px;
+}
+.dvsn4 h1{
+    font-size: 50px;
+}
+.open{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.opendiv{
+    width: 30%;
+    height: 700px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer; 
+}
+.opendivtxt{
+    font-size: 30px;
+}
+.opendivtxt p{
+    font-size: 20px;
+}
+.bttn3{
+    background-color: red;
+    color: black;
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+.bttn3:hover{
+    background-color: black;
+    color: white;
+}
+.division5{
+    width: 30%;
+    height: 700px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+}
+.division5 img{
+height: 50%;
+border-radius: 5px; 
+}
+.coffee{
+width: 100%;
+height: 100px;
+background-color: white;
+color: black;
+display: flex;
+gap: 5px;
+align-items: center;
+flex-direction: column;
+cursor: pointer;
+}
+.coffee h5{
+font-size: 20px;
+}
+.coffee p{
+font-size: 20px; 
+}
+.bttn4{
+background-color: red;
+color: black;
+height: 30px;
+width: 80px;
+border: none;
+border-radius: 5px;
+font-size: 15px;
+font-weight: 600;
+color: white;
+cursor: pointer;
+}
+.bttn4:hover{
+background-color: black;
+color: white;
+}
+.division6{
+width: 30%;
+height: 700px;
+display: flex;
+background-color: white;
+flex-direction: column;
+gap: 20px;
+cursor: pointer;
+    
+}
+.blue{
+width: 100%;
+height: 100px;
+background-color: white;
+color: black;
+display: flex;
+gap: 5px;
+align-items: center;
+flex-direction: column;
+cursor: pointer;
+}
+.blue h5{
+font-size: 20px;
+}
+.blue p{
+font-size: 20px;
+}
+.division6 img{
+height: 50%;
+border-radius: 5px;
+}
+.bttn5{
+    background-color: red;
+    color: black;
+    height: 30px;
+width: 80px;
+border: none;
+border-radius: 5px;
+font-size: 15px;
+font-weight: 600;
+color: white;
+cursor: pointer;
+}
+.bttn5:hover{
+    background-color: black;
+    color: white;
+}
+.newdiv{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.bttn6{
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+
+}
+.bttn6:hover{
+    background-color: red;
+    color: white;
+    border: none;
+}
+#division7{
+    height: 620px;
+    width: 100%;
+    background-color: white;
+}
+.txt7{
+    width: 80%;
+    height: 600px;
+    padding-top: 20px;
+    margin-left: 180px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    border-radius: 15px;
+}
+.girl{
+    border-radius: 10px;
+    position: absolute;
+    top: 50px;
+    left: -110px;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
